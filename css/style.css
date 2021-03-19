@@ -9,3 +9,32 @@ body,h1,h2,h3,h4,h5,h6,p,div,span,tr,td,table,tbody,thead,b,hr,section,head,head
     margin: 5px;
     border: 1px solid #000;
 }
+.rectangles {
+    margin: 5px;
+    border: 1px solid #000;
+    display: flex;
+}
+/* Square */
+.square_block{
+    width: 120px;
+    margin: 5px;
+    border: 1px solid #000;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 5px;
+}
+/* Rectangle */
+.rectangle_block{
+    width: 160px;
+    margin: 5px;
+    border: 1px solid #000;
+}
+.rectangle{
+    width: 150px;
+    height: 100px;
+    background: red;
+    margin: 5px;
+}
