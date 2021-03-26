@@ -204,3 +204,34 @@ body,h1,h2,h3,h4,h5,h6,p,div,span,tr,td,table,tbody,thead,b,hr,section,head,head
     transform: skew(-20deg);
     margin: 5px 25px;
 }
+.stars{
+    margin: 5px;
+    border: 1px solid #000;
+    display: flex;
+}
+.star_six_points_block {
+    width: 200px;
+    margin: 5px;
+    border: 1px solid #000;
+}
+.star_six_points{
+    position: relative;
+    width: 0;
+    height: 0;
+    margin: 15px 5px;
+    border-top: 100px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+.star_six_points::after{
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin: 5px;
+    border-bottom: 97px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    content: '';
+    top: -120px;
+    left: -53px;
+}
