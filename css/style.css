@@ -235,3 +235,75 @@ body,h1,h2,h3,h4,h5,h6,p,div,span,tr,td,table,tbody,thead,b,hr,section,head,head
     top: -120px;
     left: -53px;
 }
+.star_five_points_block {
+    border: 1px solid #000;
+    margin: 5px;
+    width: 250px;
+}
+.star_five_points {
+    margin: 40px auto;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-bottom: 130px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+}
+.star_five_points::after {
+    content: ' ';
+    position: absolute;
+    margin: 10px;
+    width: 0;
+    right: -90px;
+    height: 0;
+    top: 20px;
+    border-top: 100px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+}
+.star_five_points::before {
+    content: ' ';
+    position: absolute;
+    margin: 10px;
+    width: 0;
+    right: -90px;
+    height: 0;
+    top: 90px;
+    z-index: 1;
+    border-bottom: 30px solid white;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+}
+.pentagones {
+    margin: 5px;
+    display: flex;
+    border: 1px solid #000;
+}
+.pentagon_block {
+    margin: 10px;
+    border: 1px solid #000;
+    width: 200px;
+}
+.pentagon {
+    margin: 50px auto 10px auto;
+    position: relative;
+    width: 80px;
+    border-width: 70px 20px 0;
+    border-style: solid;
+    border-color: red transparent;
+}
+.pentagon::before {
+    position: absolute;
+    content: " ";
+    width: 0;
+    left: -20px;
+    top: -110px;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 40px solid red;
+}
+.hexagones {
+    margin: 5px;
+    display: flex;
+    border: 1px solid #000;
+}
